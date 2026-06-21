@@ -19,4 +19,4 @@ app.post("/", async (req, res) => {
   }
 });
 
-app.listen(process.env.PORT || 3000, () => console.log("Proxy running!"));
+app.listen(process.env.PORT || 8080, () => console.log("Proxy running!"));
